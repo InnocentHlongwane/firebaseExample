@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+     welcome
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- //<div class="ion-padding">
+  //</div>
+  -->
+  <ion-item>
+      <!-- <ion-label>name </ion-label> <br>
+        <ion-input>email </ion-input>
+        <ion-input>password </ion-input> -->
+        <ion-button [routerLink]="['/register']">Login</ion-button>
+        <ion-button (click)="logout()" [routerLink]="['/home']"> logout</ion-button>
+    </ion-item>
+</ion-content>
